@@ -1,10 +1,10 @@
 {
   "name": "angular-phonecat",
   "version": "0.0.1",
-  "description": "Angular-phonecat in ChlorineJS",
+  "description": "Angular-phonecat in ChlorineJS (a subset of Clojure)",
   "scripts": {
     "watch": "cl2c -p -d js/app.cl2",
-    "compile": "cl2c -B js/app.cl2"
+    "compile": "cl2c -1 -B js/app.cl2"
   },
   "repository": {
     "type": "git",
@@ -13,11 +13,12 @@
   "keywords": [
     "angular",
     "chlorine",
+    "clojure",
     "phonecat"
   ],
   "license": "EPL",
   "dependencies": {
     "chloric": "0.1.10",
-    "angular-cl2": "0.1.0"
+    "angular-cl2": "0.2.0"
   }
 }

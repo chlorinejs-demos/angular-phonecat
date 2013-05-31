@@ -1,4 +1,4 @@
-(import! "../node_modules/angular-cl2/lib/angular.cl2")
+(load-file "../node_modules/angular-cl2/src/angular.cl2")
 
 (defapp phonecat [ngResource])
 
@@ -39,6 +39,7 @@
   ['PhoneDetailCtrl "partials/phone-detail.html"]
   :default "/phones")
 
+;; an other way to config route: using lower-level defmodule
 (defmodule phonecat
   (:route
    "/phones"

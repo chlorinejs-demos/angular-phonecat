@@ -18,7 +18,7 @@
   ],
   "license": "EPL",
   "dependencies": {
-    "chloric": "0.1.10",
-    "angular-cl2": "0.2.0"
+    "chloric": "0.1.13",
+    "angular-cl2": "0.2.2"
   }
 }
